@@ -1,0 +1,1 @@
+sieve (x:xs) = x : sieve [y | y <- xs, y `mod` x > 0]
